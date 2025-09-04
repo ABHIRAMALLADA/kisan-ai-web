@@ -1,18 +1,27 @@
 # 🌱 Kisan AI Web
 
-An AI-powered, multilingual farmer assistant web app built with **React + Vite**.  
-It helps farmers with **crop guidance, soil analysis, market prices, and chatbot support** — available in **Telugu, Hindi, and English**, with **voice input & output** for ease of use.
+A multilingual, voice-enabled AI-powered web application to help farmers with **crop guidance, soil analysis, weather updates, and market rates**.  
+Built with **React + Vite**, designed for scalability and open-source collaboration.  
 
 ---
 
-## 🚀 Setup Instructions
+## 🚀 Features
+- 🌍 **Multilingual Support** – Local language + English
+- 🎙 **Voice Input (STT)** – Farmers can speak queries instead of typing
+- 🔊 **Voice Output (TTS)** – AI responds back in audio
+- 📊 **Crop & Market Data** – Get real-time info about prices and trends
+- ☁️ **Weather Forecasting** – Weather updates for better planning
+- 🛡 **Privacy-first** – No personal data leakage
 
-### 1. Prerequisites
-- Install **Node.js LTS** → [https://nodejs.org](https://nodejs.org)
-- Install **Git** → [https://git-scm.com/download/win](https://git-scm.com/download/win)
+---
 
-Check versions after install:
-```bash
-node -v
-npm -v
-git --version
+## 🛠️ Tech Stack
+- **Frontend:** React + Vite
+- **Styling:** TailwindCSS
+- **AI Integration:** OpenAI / Local ML models
+- **Voice Features:** Web Speech API (STT & TTS)
+- **Deployment:** Vercel / Netlify
+
+---
+
+## 📂 Project Structure
